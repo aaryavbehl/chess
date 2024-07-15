@@ -120,4 +120,10 @@ socket.on("move", function(move){
     renderBoard();
 });
 
+document.getElementById("resetButton").addEventListener("click", function() {
+    socket.emit("resetGame");
+    location.reload(); // Reload the page
+});
+
+
 renderBoard();
