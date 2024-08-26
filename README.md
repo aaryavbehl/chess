@@ -1,6 +1,6 @@
 # chess
 A chess.com clone
-Hosting Instructions:
+#Hosting Instructions:
 1) Clone the repo
 2) run a terminal inside the folder
 3) run "npm install"
